@@ -13,7 +13,7 @@ pipeline {
 
         stage('test') {
           steps {
-            fileExists 'TrainSchedule.zip'
+            fileExists 'dist/trainSchedule.zip'
           }
         }
 
